@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL ='https://mern-backend3-yny7.onrender.com/api'
+const API_BASE_URL ='http://13.126.206.58:5000/api'
 
 const api = axios.create({
     baseURL: API_BASE_URL,
