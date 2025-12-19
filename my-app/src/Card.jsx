@@ -35,6 +35,7 @@ function Card() {
             <div className="cart-info">
               <h3>{item.name}</h3>
               <p className="cart-price">₹{item.price}</p>
+              <p className="cart-quantity">Quantity: {item.quantity}</p>
             </div>
 
             <button className="remove-btn" onClick={() => handleRemove(item._id)}>

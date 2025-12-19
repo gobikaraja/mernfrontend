@@ -174,6 +174,12 @@
   background: #0D2A66;
   transform: scale(1.05);
 }
+.product-img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  background-color: #f4f3f6;
+}
 
 /* ---------------- Contact Page ---------------- */
 .contact-container {
@@ -730,4 +736,155 @@ body, html {
   .features-card p, .categories-card p, .offers-card p {
     width: 80%;
   }
+}
+
+
+.cart-actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buy-btn {
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background-color: #e64a19;
+}
+/* Container styling */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form box */
+.login-box {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.login-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Title */
+.login-title {
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 28px;
+}
+
+/* Input groups */
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #555;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 5px rgba(106, 17, 203, 0.4);
+}
+
+/* Login button */
+.login-btn {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Signup text */
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.signup-text a {
+  color: #6a11cb;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+/* Common button style */
+.add-btn, .buy-btn {
+  padding: 12px 25px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Add to Cart button */
+.add-btn {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+}
+
+.add-btn:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Buy Now button */
+.buy-btn {
+  background: linear-gradient(45deg, #ff5722, #ff9800);
+}
+
+.buy-btn:hover {
+  background: linear-gradient(45deg, #ff9800, #ff5722);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }

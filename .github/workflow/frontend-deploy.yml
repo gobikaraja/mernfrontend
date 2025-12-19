@@ -1,4 +1,4 @@
-name: Frontend CI/CD - S3
+name: E-Commerse Frontend Deploy
 
 on:
   push:
